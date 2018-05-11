@@ -1,0 +1,78 @@
+  .indexbody {
+	background; url("images/stars.gif") ;
+	background-size: cover;
+}
+
+h1 {
+	font-size: 50px;
+	
+}
+
+p {
+	font-size: 25px;
+}
+
+
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky { 
+	position: fixed;
+	top: 0;
+	width: 100%
+}
+
+.sticky + .content {
+	padding-top: 102px;
+}
+
+
+
+
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+
+.content {
+  padding: 16px;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+.grid-4col {
+	display: grid;
+	grid-template-colums: 1fr 1fr 1fr 1fr;
+	grid-gap: 2vh;
+	border: 1px black solid;
+}
