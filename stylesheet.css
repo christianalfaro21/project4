@@ -70,9 +70,25 @@ p {
 }
 
 
-.grid-4col {
-	display: grid;
-	grid-template-colums: 1fr 1fr 1fr 1fr;
-	grid-gap: 2vh;
-	border: 1px black solid;
+
+
+.grid-colspan4 {
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: 4;
 }
+
+.grid-colspan3-a {
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 4;
+	text-align: justify;
+}
+
+.grid-colspan3-b {
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 4;
+	text-align: justify;
+}
+
